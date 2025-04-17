@@ -1,5 +1,5 @@
 <header id="header" class="bg-white py-4 md:py-6 px-6 md:px-12 flex flex-col md:flex-row justify-between items-center border-b border-gray-200 sticky top-0 z-50 shadow-sm">
-  <div class="container mx-auto max-w-7xl px-4 sm:px-6 flex flex-col md:flex-row justify-between items-center w-full">
+  <div class="container mx-auto max-w-7xl px-5 sm:px-6 flex flex-col md:flex-row justify-between items-center w-full">
     <div class="flex items-center justify-between w-full md:w-auto">
       <div class="flex items-center gap-2">
         <img class="h-10 w-auto" src="assets/images/logo1.png" alt="JMIICO logo - Jordan Mountains intermediate industries Co." />
@@ -19,13 +19,13 @@
       </div>
       <div class="flex items-center gap-3 mt-4 md:mt-0">
         <button 
-          class="border border-gray-300 rounded px-4 py-2 text-gray-700 hover:bg-gray-50 transition-colors"
+          class="border border-gray-300 rounded px-5 py-2 text-gray-700 hover:bg-gray-50 transition-colors"
           [class.bg-blue-50]="currentLang === 'en'"
           (click)="switchLanguage('en')">
           <i class="fa-solid fa-globe mr-2"></i>{{ 'NAVBAR.LANGUAGE.ENGLISH' | translate }}
         </button>
         <button 
-          class="border border-gray-300 rounded px-4 py-2 text-gray-700 hover:bg-gray-50 transition-colors"
+          class="border border-gray-300 rounded px-5 py-2 text-gray-700 hover:bg-gray-50 transition-colors"
           [class.bg-blue-50]="currentLang === 'ar'"
           (click)="switchLanguage('ar')">
           {{ 'NAVBAR.LANGUAGE.ARABIC' | translate }}
