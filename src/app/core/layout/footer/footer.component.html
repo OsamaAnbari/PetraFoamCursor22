@@ -7,7 +7,7 @@
           <img class="h-10 w-auto" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/8ea9a328c7-8de926bc157d5378665c.png" alt="minimalist white logo for Petra Foam, heat insulation company" />
           <span class="text-xl font-bold">Petra Foam</span>
         </div>
-        <p class="text-blue-200 mb-4">Leading provider of high-quality insulation solutions for residential, commercial, and industrial applications.</p>
+        <p class="text-blue-200 mb-4">{{ 'FOOTER.COMPANY_DESC' | translate }}</p>
         <div class="flex gap-4">
           <span class="text-blue-200 hover:text-white transition-colors cursor-pointer">
             <i class="fa-brands fa-facebook-f"></i>
@@ -26,58 +26,58 @@
       
       <!-- Quick Links -->
       <div id="footer-quick-links">
-        <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+        <h3 class="text-lg font-semibold mb-4">{{ 'FOOTER.QUICK_LINKS' | translate }}</h3>
         <ul class="space-y-2">
-          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">Home</span></li>
-          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">Products</span></li>
-          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">Projects</span></li>
-          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">About Us</span></li>
-          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">Contact Us</span></li>
+          <li><a routerLink="/" class="text-blue-200 hover:text-white transition-colors cursor-pointer">{{ 'NAVBAR.HOME' | translate }}</a></li>
+          <li><a routerLink="/products" class="text-blue-200 hover:text-white transition-colors cursor-pointer">{{ 'NAVBAR.PRODUCTS' | translate }}</a></li>
+          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">{{ 'FOOTER.PROJECTS' | translate }}</span></li>
+          <li><a routerLink="/about" class="text-blue-200 hover:text-white transition-colors cursor-pointer">{{ 'NAVBAR.ABOUT_US' | translate }}</a></li>
+          <li><a routerLink="/contact" class="text-blue-200 hover:text-white transition-colors cursor-pointer">{{ 'NAVBAR.CONTACT_US' | translate }}</a></li>
         </ul>
       </div>
       
       <!-- Products -->
       <div id="footer-products">
-        <h3 class="text-lg font-semibold mb-4">Products</h3>
+        <h3 class="text-lg font-semibold mb-4">{{ 'NAVBAR.PRODUCTS' | translate }}</h3>
         <ul class="space-y-2">
-          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">Thermal Insulation</span></li>
-          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">Acoustic Insulation</span></li>
-          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">Spray Foam</span></li>
-          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">Insulation Panels</span></li>
-          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">Custom Solutions</span></li>
+          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">{{ 'FOOTER.THERMAL_INSULATION' | translate }}</span></li>
+          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">{{ 'FOOTER.ACOUSTIC_INSULATION' | translate }}</span></li>
+          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">{{ 'FOOTER.SPRAY_FOAM' | translate }}</span></li>
+          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">{{ 'FOOTER.INSULATION_PANELS' | translate }}</span></li>
+          <li><span class="text-blue-200 hover:text-white transition-colors cursor-pointer">{{ 'FOOTER.CUSTOM_SOLUTIONS' | translate }}</span></li>
         </ul>
       </div>
       
       <!-- Contact Info -->
       <div id="footer-contact">
-        <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+        <h3 class="text-lg font-semibold mb-4">{{ 'FOOTER.CONTACT_INFO' | translate }}</h3>
         <ul class="space-y-3">
           <li class="flex items-start">
             <i class="fa-solid fa-location-dot mt-1 mr-3 text-blue-300"></i>
-            <span class="text-blue-200">123 Industrial Zone, Amman, Jordan</span>
+            <span class="text-blue-200">{{ 'FOOTER.ADDRESS' | translate }}</span>
           </li>
           <li class="flex items-center">
             <i class="fa-solid fa-phone mr-3 text-blue-300"></i>
-            <span class="text-blue-200">+962 6 123 4567</span>
+            <span class="text-blue-200">{{ 'FOOTER.PHONE' | translate }}</span>
           </li>
           <li class="flex items-center">
             <i class="fa-solid fa-envelope mr-3 text-blue-300"></i>
-            <span class="text-blue-200">info@petrafoam.com</span>
+            <span class="text-blue-200">{{ 'FOOTER.EMAIL' | translate }}</span>
           </li>
           <li class="flex items-center">
             <i class="fa-solid fa-clock mr-3 text-blue-300"></i>
-            <span class="text-blue-200">Mon-Fri: 8:00 AM - 5:00 PM</span>
+            <span class="text-blue-200">{{ 'FOOTER.HOURS' | translate }}</span>
           </li>
         </ul>
       </div>
     </div>
     
     <div class="pt-8 border-t border-blue-800 flex flex-col md:flex-row justify-between items-center">
-      <p class="text-blue-300 text-sm mb-4 md:mb-0">© 2025 Petra Foam. All rights reserved.</p>
+      <p class="text-blue-300 text-sm mb-4 md:mb-0">{{ 'FOOTER.COPYRIGHT' | translate }}</p>
       <div class="flex gap-6">
-        <span class="text-blue-300 text-sm hover:text-white transition-colors cursor-pointer">Privacy Policy</span>
-        <span class="text-blue-300 text-sm hover:text-white transition-colors cursor-pointer">Terms of Service</span>
-        <span class="text-blue-300 text-sm hover:text-white transition-colors cursor-pointer">Sitemap</span>
+        <span class="text-blue-300 text-sm hover:text-white transition-colors cursor-pointer">{{ 'FOOTER.PRIVACY_POLICY' | translate }}</span>
+        <span class="text-blue-300 text-sm hover:text-white transition-colors cursor-pointer">{{ 'FOOTER.TERMS' | translate }}</span>
+        <span class="text-blue-300 text-sm hover:text-white transition-colors cursor-pointer">{{ 'FOOTER.SITEMAP' | translate }}</span>
       </div>
     </div>
   </div>

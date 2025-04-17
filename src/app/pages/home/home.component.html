@@ -2,17 +2,17 @@
   <div class="container mx-auto max-w-7xl px-4 sm:px-6 flex flex-col md:flex-row items-center">
     <div class="w-full md:w-1/2 pr-0 md:pr-10 mb-10 md:mb-0">
       <h1 class="text-4xl md:text-5xl font-bold mb-6 text-blue-900">
-        Superior Heat Insulation Solutions
+        {{ 'HOME.HERO.TITLE' | translate }}
       </h1>
       <p class="text-lg mb-8 text-gray-700">
-        Petra Foam provides high-quality insulation products that help reduce energy costs and create comfortable environments for residential and commercial buildings.
+        {{ 'HOME.HERO.DESCRIPTION' | translate }}
       </p>
       <div class="flex flex-col sm:flex-row gap-4">
         <a routerLink="/products" class="bg-blue-600 text-white rounded px-6 py-3 font-medium text-center hover:bg-blue-700 transition-colors cursor-pointer">
-          Explore Products
+          {{ 'HOME.HERO.EXPLORE_PRODUCTS' | translate }}
         </a>
         <a routerLink="/contact" class="border border-blue-600 text-blue-600 rounded px-6 py-3 font-medium text-center hover:bg-blue-50 transition-colors cursor-pointer">
-          Contact Us
+          {{ 'HOME.HERO.CONTACT_US' | translate }}
         </a>
       </div>
     </div>
@@ -26,8 +26,8 @@
 <section id="featured-products" class="py-20 px-6 md:px-12 bg-white">
   <div class="container mx-auto max-w-7xl px-4 sm:px-6">
     <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-blue-900 mb-4">Our Insulation Products</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto">Discover our range of high-performance insulation solutions designed to meet various thermal and acoustic requirements.</p>
+      <h2 class="text-3xl font-bold text-blue-900 mb-4">{{ 'HOME.PRODUCTS.TITLE' | translate }}</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">{{ 'HOME.PRODUCTS.DESCRIPTION' | translate }}</p>
     </div>
     
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -37,10 +37,10 @@
           <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/91c64c18f2-5bb606bf8e00db4966d5.png" alt="blue foam insulation panels stacked neatly, professional product photography" />
         </div>
         <div class="p-6">
-          <h3 class="text-xl font-semibold text-blue-800 mb-2">Thermal Insulation Panels</h3>
-          <p class="text-gray-600 mb-4">High-density foam panels designed for superior thermal resistance and energy efficiency.</p>
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">{{ 'HOME.PRODUCTS.THERMAL_PANELS.TITLE' | translate }}</h3>
+          <p class="text-gray-600 mb-4">{{ 'HOME.PRODUCTS.THERMAL_PANELS.DESCRIPTION' | translate }}</p>
           <span class="text-blue-600 font-medium flex items-center cursor-pointer">
-            Learn More <i class="fa-solid fa-arrow-right ml-2"></i>
+            {{ 'HOME.PRODUCTS.LEARN_MORE' | translate }} <i class="fa-solid fa-arrow-right ml-2"></i>
           </span>
         </div>
       </div>
@@ -51,10 +51,10 @@
           <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/52daef4ba1-5800bc92aa0ccad14d00.png" alt="acoustic insulation foam being installed in a modern office space, blue color theme" />
         </div>
         <div class="p-6">
-          <h3 class="text-xl font-semibold text-blue-800 mb-2">Acoustic Insulation</h3>
-          <p class="text-gray-600 mb-4">Sound-absorbing solutions for residential and commercial spaces to reduce noise pollution.</p>
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">{{ 'HOME.PRODUCTS.ACOUSTIC.TITLE' | translate }}</h3>
+          <p class="text-gray-600 mb-4">{{ 'HOME.PRODUCTS.ACOUSTIC.DESCRIPTION' | translate }}</p>
           <span class="text-blue-600 font-medium flex items-center cursor-pointer">
-            Learn More <i class="fa-solid fa-arrow-right ml-2"></i>
+            {{ 'HOME.PRODUCTS.LEARN_MORE' | translate }} <i class="fa-solid fa-arrow-right ml-2"></i>
           </span>
         </div>
       </div>
@@ -65,10 +65,10 @@
           <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/794166791b-26cea97ce876da0c310e.png" alt="insulation spray foam being applied to walls, professional application, blue tint" />
         </div>
         <div class="p-6">
-          <h3 class="text-xl font-semibold text-blue-800 mb-2">Spray Foam Insulation</h3>
-          <p class="text-gray-600 mb-4">Versatile spray application for hard-to-reach areas, providing seamless coverage and insulation.</p>
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">{{ 'HOME.PRODUCTS.SPRAY_FOAM.TITLE' | translate }}</h3>
+          <p class="text-gray-600 mb-4">{{ 'HOME.PRODUCTS.SPRAY_FOAM.DESCRIPTION' | translate }}</p>
           <span class="text-blue-600 font-medium flex items-center cursor-pointer">
-            Learn More <i class="fa-solid fa-arrow-right ml-2"></i>
+            {{ 'HOME.PRODUCTS.LEARN_MORE' | translate }} <i class="fa-solid fa-arrow-right ml-2"></i>
           </span>
         </div>
       </div>
@@ -76,7 +76,7 @@
     
     <div class="text-center mt-10">
       <a routerLink="/products" class="inline-block bg-blue-600 text-white rounded-lg px-8 py-3 font-medium hover:bg-blue-700 transition-colors cursor-pointer">
-        View All Products
+        {{ 'HOME.PRODUCTS.VIEW_ALL' | translate }}
       </a>
     </div>
   </div>
@@ -86,8 +86,8 @@
 <section id="why-choose-us" class="py-20 px-6 md:px-12 bg-blue-50">
   <div class="container mx-auto max-w-7xl px-4 sm:px-6">
     <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-blue-900 mb-4">Why Choose Petra Foam</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto">Our commitment to quality and innovation makes us the preferred choice for insulation solutions.</p>
+      <h2 class="text-3xl font-bold text-blue-900 mb-4">{{ 'HOME.WHY_CHOOSE.TITLE' | translate }}</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">{{ 'HOME.WHY_CHOOSE.DESCRIPTION' | translate }}</p>
     </div>
     
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -96,8 +96,8 @@
         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
           <i class="fa-solid fa-medal text-blue-600 text-2xl"></i>
         </div>
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">Premium Quality</h3>
-        <p class="text-gray-600">All our products meet rigorous quality standards and international certifications.</p>
+        <h3 class="text-xl font-semibold text-blue-800 mb-2">{{ 'HOME.WHY_CHOOSE.PREMIUM_QUALITY.TITLE' | translate }}</h3>
+        <p class="text-gray-600">{{ 'HOME.WHY_CHOOSE.PREMIUM_QUALITY.DESCRIPTION' | translate }}</p>
       </div>
       
       <!-- Feature 2 -->
@@ -105,8 +105,8 @@
         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
           <i class="fa-solid fa-leaf text-blue-600 text-2xl"></i>
         </div>
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">Eco-Friendly</h3>
-        <p class="text-gray-600">Our insulation solutions are environmentally sustainable and energy-efficient.</p>
+        <h3 class="text-xl font-semibold text-blue-800 mb-2">{{ 'HOME.WHY_CHOOSE.ECO_FRIENDLY.TITLE' | translate }}</h3>
+        <p class="text-gray-600">{{ 'HOME.WHY_CHOOSE.ECO_FRIENDLY.DESCRIPTION' | translate }}</p>
       </div>
       
       <!-- Feature 3 -->
@@ -114,8 +114,8 @@
         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
           <i class="fa-solid fa-headset text-blue-600 text-2xl"></i>
         </div>
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">Expert Support</h3>
-        <p class="text-gray-600">Our team of specialists provides guidance and support throughout your project.</p>
+        <h3 class="text-xl font-semibold text-blue-800 mb-2">{{ 'HOME.WHY_CHOOSE.EXPERT_SUPPORT.TITLE' | translate }}</h3>
+        <p class="text-gray-600">{{ 'HOME.WHY_CHOOSE.EXPERT_SUPPORT.DESCRIPTION' | translate }}</p>
       </div>
       
       <!-- Feature 4 -->
@@ -123,8 +123,8 @@
         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
           <i class="fa-solid fa-truck-fast text-blue-600 text-2xl"></i>
         </div>
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">Fast Delivery</h3>
-        <p class="text-gray-600">We ensure timely delivery and professional installation services.</p>
+        <h3 class="text-xl font-semibold text-blue-800 mb-2">{{ 'HOME.WHY_CHOOSE.FAST_DELIVERY.TITLE' | translate }}</h3>
+        <p class="text-gray-600">{{ 'HOME.WHY_CHOOSE.FAST_DELIVERY.DESCRIPTION' | translate }}</p>
       </div>
     </div>
   </div>
@@ -134,8 +134,8 @@
 <section id="projects-showcase" class="py-20 px-6 md:px-12 bg-white">
   <div class="container mx-auto max-w-7xl px-4 sm:px-6">
     <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-blue-900 mb-4">Our Projects</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto">Explore some of our recent insulation projects across residential and commercial sectors.</p>
+      <h2 class="text-3xl font-bold text-blue-900 mb-4">{{ 'HOME.PROJECTS.TITLE' | translate }}</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">{{ 'HOME.PROJECTS.DESCRIPTION' | translate }}</p>
     </div>
     
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -143,8 +143,8 @@
       <div id="project-1" class="group relative overflow-hidden rounded-lg shadow-md">
         <img class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/2ad4d3029e-16623f2dc3b5ecd40a96.png" alt="modern residential building with blue-tinted windows, showcasing insulation project" />
         <div class="absolute inset-0 bg-gradient-to-t from-blue-900 to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex flex-col justify-end p-6">
-          <h3 class="text-white text-xl font-semibold">Residential Complex</h3>
-          <p class="text-blue-100 mt-2">Complete thermal insulation for a new residential development.</p>
+          <h3 class="text-white text-xl font-semibold">{{ 'HOME.PROJECTS.RESIDENTIAL.TITLE' | translate }}</h3>
+          <p class="text-blue-100 mt-2">{{ 'HOME.PROJECTS.RESIDENTIAL.DESCRIPTION' | translate }}</p>
         </div>
       </div>
       
@@ -152,8 +152,8 @@
       <div id="project-2" class="group relative overflow-hidden rounded-lg shadow-md">
         <img class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/c429d1c6b7-6bc4dbaf84afb050d0b3.png" alt="modern office building with blue glass exterior, commercial insulation project" />
         <div class="absolute inset-0 bg-gradient-to-t from-blue-900 to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex flex-col justify-end p-6">
-          <h3 class="text-white text-xl font-semibold">Commercial Office</h3>
-          <p class="text-blue-100 mt-2">Acoustic and thermal insulation for a multi-story office building.</p>
+          <h3 class="text-white text-xl font-semibold">{{ 'HOME.PROJECTS.COMMERCIAL.TITLE' | translate }}</h3>
+          <p class="text-blue-100 mt-2">{{ 'HOME.PROJECTS.COMMERCIAL.DESCRIPTION' | translate }}</p>
         </div>
       </div>
       
@@ -161,15 +161,15 @@
       <div id="project-3" class="group relative overflow-hidden rounded-lg shadow-md">
         <img class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/a7e657cd04-aa54d26d4c6750558f58.png" alt="industrial facility with blue roof and walls, industrial insulation project" />
         <div class="absolute inset-0 bg-gradient-to-t from-blue-900 to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex flex-col justify-end p-6">
-          <h3 class="text-white text-xl font-semibold">Industrial Facility</h3>
-          <p class="text-blue-100 mt-2">High-performance insulation for temperature-controlled industrial spaces.</p>
+          <h3 class="text-white text-xl font-semibold">{{ 'HOME.PROJECTS.INDUSTRIAL.TITLE' | translate }}</h3>
+          <p class="text-blue-100 mt-2">{{ 'HOME.PROJECTS.INDUSTRIAL.DESCRIPTION' | translate }}</p>
         </div>
       </div>
     </div>
     
     <div class="text-center mt-10">
       <span class="inline-block border border-blue-600 text-blue-600 rounded-lg px-8 py-3 font-medium hover:bg-blue-50 transition-colors cursor-pointer">
-        View All Projects
+        {{ 'HOME.PROJECTS.VIEW_ALL' | translate }}
       </span>
     </div>
   </div>
@@ -178,11 +178,11 @@
 <!-- CTA Section -->
 <section id="cta-section" class="py-20 px-6 md:px-12 bg-blue-600 text-white">
   <div class="container mx-auto max-w-7xl px-4 sm:px-6 text-center">
-    <h2 class="text-3xl font-bold mb-6">Ready to Start Your Insulation Project?</h2>
-    <p class="text-blue-100 max-w-2xl mx-auto mb-8">Contact our team of experts today to discuss your insulation needs and get a personalized quote.</p>
+    <h2 class="text-3xl font-bold mb-6">{{ 'HOME.CTA.TITLE' | translate }}</h2>
+    <p class="text-blue-100 max-w-2xl mx-auto mb-8">{{ 'HOME.CTA.DESCRIPTION' | translate }}</p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center">
       <a routerLink="/contact" class="border border-white text-white rounded-lg px-8 py-3 font-medium hover:bg-blue-700 transition-colors cursor-pointer">
-        Contact Sales Team
+        {{ 'HOME.CTA.CONTACT_SALES' | translate }}
       </a>
     </div>
   </div>

@@ -1,0 +1,104 @@
+{
+  "NAVBAR": {
+    "PETRAFOAM": "Petra Foam",
+    "HOME": "Home",
+    "PRODUCTS": "Products",
+    "ABOUT_US": "About Us",
+    "CONTACT_US": "Contact Us",
+    "LANGUAGE": {
+      "ENGLISH": "English",
+      "ARABIC": "العربية"
+    }
+  },
+  "COMMON": {
+    "GET_QUOTE": "Get a Quote"
+  },
+  "FOOTER": {
+    "COMPANY_DESC": "Leading provider of high-quality insulation solutions for residential, commercial, and industrial applications.",
+    "QUICK_LINKS": "Quick Links",
+    "PRODUCTS": "Products",
+    "PROJECTS": "Projects",
+    "THERMAL_INSULATION": "Thermal Insulation",
+    "ACOUSTIC_INSULATION": "Acoustic Insulation",
+    "SPRAY_FOAM": "Spray Foam",
+    "INSULATION_PANELS": "Insulation Panels",
+    "CUSTOM_SOLUTIONS": "Custom Solutions",
+    "CONTACT_INFO": "Contact Us",
+    "ADDRESS": "123 Industrial Zone, Amman, Jordan",
+    "PHONE": "+962 6 123 4567",
+    "EMAIL": "info@petrafoam.com",
+    "HOURS": "Mon-Fri: 8:00 AM - 5:00 PM",
+    "COPYRIGHT": "© 2025 Petra Foam. All rights reserved.",
+    "PRIVACY_POLICY": "Privacy Policy",
+    "TERMS": "Terms of Service",
+    "SITEMAP": "Sitemap"
+  },
+  "HOME": {
+    "HERO": {
+      "TITLE": "Superior Heat Insulation Solutions",
+      "DESCRIPTION": "Petra Foam provides high-quality insulation products that help reduce energy costs and create comfortable environments for residential and commercial buildings.",
+      "EXPLORE_PRODUCTS": "Explore Products",
+      "CONTACT_US": "Contact Us"
+    },
+    "PRODUCTS": {
+      "TITLE": "Our Insulation Products",
+      "DESCRIPTION": "Discover our range of high-performance insulation solutions designed to meet various thermal and acoustic requirements.",
+      "THERMAL_PANELS": {
+        "TITLE": "Thermal Insulation Panels",
+        "DESCRIPTION": "High-density foam panels designed for superior thermal resistance and energy efficiency."
+      },
+      "ACOUSTIC": {
+        "TITLE": "Acoustic Insulation",
+        "DESCRIPTION": "Sound-absorbing solutions for residential and commercial spaces to reduce noise pollution."
+      },
+      "SPRAY_FOAM": {
+        "TITLE": "Spray Foam Insulation",
+        "DESCRIPTION": "Versatile spray application for hard-to-reach areas, providing seamless coverage and insulation."
+      },
+      "LEARN_MORE": "Learn More",
+      "VIEW_ALL": "View All Products"
+    },
+    "WHY_CHOOSE": {
+      "TITLE": "Why Choose Petra Foam",
+      "DESCRIPTION": "Our commitment to quality and innovation makes us the preferred choice for insulation solutions.",
+      "PREMIUM_QUALITY": {
+        "TITLE": "Premium Quality",
+        "DESCRIPTION": "All our products meet rigorous quality standards and international certifications."
+      },
+      "ECO_FRIENDLY": {
+        "TITLE": "Eco-Friendly",
+        "DESCRIPTION": "Our insulation solutions are environmentally sustainable and energy-efficient."
+      },
+      "EXPERT_SUPPORT": {
+        "TITLE": "Expert Support",
+        "DESCRIPTION": "Our team of specialists provides guidance and support throughout your project."
+      },
+      "FAST_DELIVERY": {
+        "TITLE": "Fast Delivery",
+        "DESCRIPTION": "We ensure timely delivery and professional installation services."
+      }
+    },
+    "PROJECTS": {
+      "TITLE": "Our Projects",
+      "DESCRIPTION": "Explore some of our recent insulation projects across residential and commercial sectors.",
+      "RESIDENTIAL": {
+        "TITLE": "Residential Complex",
+        "DESCRIPTION": "Complete thermal insulation for a new residential development."
+      },
+      "COMMERCIAL": {
+        "TITLE": "Commercial Office",
+        "DESCRIPTION": "Acoustic and thermal insulation for a multi-story office building."
+      },
+      "INDUSTRIAL": {
+        "TITLE": "Industrial Facility",
+        "DESCRIPTION": "High-performance insulation for temperature-controlled industrial spaces."
+      },
+      "VIEW_ALL": "View All Projects"
+    },
+    "CTA": {
+      "TITLE": "Ready to Start Your Insulation Project?",
+      "DESCRIPTION": "Contact our team of experts today to discuss your insulation needs and get a personalized quote.",
+      "CONTACT_SALES": "Contact Sales Team"
+    }
+  }
+} 
