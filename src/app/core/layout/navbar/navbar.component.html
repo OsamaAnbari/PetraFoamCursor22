@@ -1,31 +1,30 @@
-<header id="header" class="bg-white py-6 px-8 md:px-12 flex flex-col md:flex-row justify-between items-center border-b border-gray-200 sticky top-0 z-50 shadow-sm">
-  <div class="flex items-center justify-between w-full md:w-auto">
-    <div class="flex items-center gap-2">
-      <img class="h-10 w-auto" src="assets/images/logo1.png" alt="JMIICO logo - Jordan Mountains intermediate industries Co." />
-      <span class="text-2xl font-bold text-blue-700">Petra Foam</span>
+<header id="header" class="bg-white py-4 md:py-6 px-6 md:px-12 flex flex-col md:flex-row justify-between items-center border-b border-gray-200 sticky top-0 z-50 shadow-sm">
+  <div class="container mx-auto max-w-7xl px-4 sm:px-6 flex flex-col md:flex-row justify-between items-center w-full">
+    <div class="flex items-center justify-between w-full md:w-auto">
+      <div class="flex items-center gap-2">
+        <img class="h-10 w-auto" src="assets/images/logo1.png" alt="JMIICO logo - Jordan Mountains intermediate industries Co." />
+        <span class="text-2xl font-bold text-blue-900">Petra Foam</span>
+      </div>
+      <button id="mobile-menu-button" class="md:hidden text-gray-700" (click)="toggleMobileMenu()">
+        <i class="fa-solid fa-bars text-xl"></i>
+      </button>
     </div>
-    <button id="mobile-menu-button" class="md:hidden text-gray-700" (click)="toggleMobileMenu()">
-      <i class="fa-solid fa-bars text-xl"></i>
-    </button>
+    
+    <nav id="main-nav" [ngClass]="{'hidden md:flex': !mobileMenuOpen, 'flex': mobileMenuOpen}" class="flex-col md:flex-row items-center gap-8 w-full md:w-auto mt-4 md:mt-0">
+      <div class="flex flex-col md:flex-row items-center gap-6">
+        <a routerLink="/" class="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">Home</a>
+        <a routerLink="/products" class="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">Products</a>
+        <a routerLink="/about" class="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">About Us</a>
+        <a routerLink="/contact" class="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">Contact Us</a>
+      </div>
+      <div class="flex items-center gap-3 mt-4 md:mt-0">
+        <button class="border border-gray-300 rounded px-4 py-2 text-gray-700 hover:bg-gray-50 transition-colors">
+          <i class="fa-solid fa-globe mr-2"></i>English
+        </button>
+        <button class="border border-gray-300 rounded px-4 py-2 text-gray-700 hover:bg-gray-50 transition-colors">
+          العربية
+        </button>
+      </div>
+    </nav>
   </div>
-  
-  <nav id="main-nav" [ngClass]="{'hidden md:flex': !mobileMenuOpen, 'flex': mobileMenuOpen}" class="flex-col md:flex-row items-center gap-8 w-full md:w-auto mt-4 md:mt-0">
-    <div class="flex flex-col md:flex-row items-center gap-6">
-      <span class="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">Home</span>
-      <span class="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">Products</span>
-      <span class="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">About Us</span>
-      <span class="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">Contact Us</span>
-    </div>
-    <div class="flex items-center gap-3 mt-4 md:mt-0">
-      <button class="border border-gray-300 rounded px-4 py-2 text-gray-700 hover:bg-gray-50 transition-colors">
-        <i class="fa-solid fa-globe mr-2"></i>English
-      </button>
-      <button class="border border-gray-300 rounded px-4 py-2 text-gray-700 hover:bg-gray-50 transition-colors">
-        العربية
-      </button>
-      <span class="bg-blue-600 text-white rounded px-4 py-2 hover:bg-blue-700 transition-colors cursor-pointer">
-        Get a Quote
-      </span>
-    </div>
-  </nav>
 </header>
