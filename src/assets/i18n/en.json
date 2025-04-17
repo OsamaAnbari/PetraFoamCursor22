@@ -35,10 +35,18 @@
   },
   "HOME": {
     "HERO": {
-      "TITLE": "Superior Heat Insulation Solutions",
-      "DESCRIPTION": "Petra Foam provides high-quality insulation products that help reduce energy costs and create comfortable environments for residential and commercial buildings.",
-      "EXPLORE_PRODUCTS": "Explore Products",
-      "CONTACT_US": "Contact Us"
+      "BADGE": "Premium Insulation Solutions",
+      "TITLE": "Advanced Thermal <span class=\"text-blue-200\">Insulation</span> Technology",
+      "DESCRIPTION": "Providing superior heat insulation solutions for residential and commercial buildings. Save energy, reduce costs, and create comfortable environments.",
+      "CONTACT_BUTTON": "Contact Us",
+      "SERVICES_BUTTON": "Our Services",
+      "FEATURE_ENERGY": "Energy Efficient",
+      "FEATURE_ECO": "Eco-Friendly",
+      "FEATURE_ISO": "ISO Certified",
+      "CTA_TITLE": "Ready to improve your building's efficiency?",
+      "CTA_SUBTITLE": "Get a free consultation and estimate for your project.",
+      "EMAIL_PLACEHOLDER": "Enter your email",
+      "QUOTE_BUTTON": "Request Quote"
     },
     "PRODUCTS": {
       "TITLE": "Our Insulation Products",

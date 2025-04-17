@@ -8,14 +8,17 @@ import { TranslationService } from '../../core/services/translation.service';
 })
 export class HomeComponent implements OnInit {
   currentLang: string;
+  isRtl: boolean;
 
   constructor(private translationService: TranslationService) {
     this.currentLang = this.translationService.getCurrentLang();
+    this.isRtl = this.translationService.isRtl();
   }
 
   ngOnInit(): void {
     this.translationService.currentLang$.subscribe(lang => {
       this.currentLang = lang;
+      this.isRtl = this.translationService.isRtl();
     });
   }
 }
