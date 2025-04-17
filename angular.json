@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "petra-foam22"
+  "defaultProject": "petra-foam22",
+  "cli": {
+    "analytics": false
+  }
 }
