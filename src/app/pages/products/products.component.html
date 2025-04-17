@@ -1,13 +1,6 @@
 <section id="products-hero" class="bg-blue-900 text-white py-16 md:py-20 px-6 md:px-12">
   <div class="container mx-auto max-w-7xl px-4 sm:px-6">
-    <h1 class="text-4xl font-bold mb-4">Our Products</h1>
-    <nav class="flex" aria-label="Breadcrumb">
-      <ol class="flex items-center space-x-2">
-        <li><a routerLink="/" class="hover:text-blue-200">Home</a></li>
-        <li><i class="fa-solid fa-chevron-right text-sm mx-2"></i></li>
-        <li>Products</li>
-      </ol>
-    </nav>
+    <h1 class="text-4xl font-bold">{{ 'PRODUCTS.HERO.TITLE' | translate }}</h1>
   </div>
 </section>
 
@@ -16,28 +9,28 @@
   <div class="container mx-auto max-w-7xl px-4 sm:px-6">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
       <div class="space-y-6">
-        <h2 class="text-3xl font-bold text-blue-900">XPS Insulation</h2>
+        <h2 class="text-3xl font-bold text-blue-900">{{ 'PRODUCTS.XPS.TITLE' | translate }}</h2>
         <p class="text-gray-600 leading-relaxed">
-          Extruded Polystyrene (XPS) foam boards provide excellent thermal insulation and moisture resistance. Ideal for roofing, walls, and foundation applications.
+          {{ 'PRODUCTS.XPS.DESCRIPTION' | translate }}
         </p>
         <div class="bg-white rounded-lg shadow-lg p-6">
-          <h3 class="text-xl font-semibold text-blue-900 mb-4">Technical Specifications</h3>
+          <h3 class="text-xl font-semibold text-blue-900 mb-4">{{ 'PRODUCTS.XPS.SPECS' | translate }}</h3>
           <table class="w-full">
             <tbody class="divide-y divide-gray-200">
               <tr class="hover:bg-gray-50">
-                <td class="py-3 font-medium">Density</td>
+                <td class="py-3 font-medium">{{ 'PRODUCTS.XPS.DENSITY' | translate }}</td>
                 <td class="py-3">32-35 kg/m³</td>
               </tr>
               <tr class="hover:bg-gray-50">
-                <td class="py-3 font-medium">Thermal Conductivity</td>
+                <td class="py-3 font-medium">{{ 'PRODUCTS.XPS.THERMAL' | translate }}</td>
                 <td class="py-3">0.028-0.031 W/mK</td>
               </tr>
               <tr class="hover:bg-gray-50">
-                <td class="py-3 font-medium">Compressive Strength</td>
+                <td class="py-3 font-medium">{{ 'PRODUCTS.XPS.COMPRESSIVE' | translate }}</td>
                 <td class="py-3">300-700 kPa</td>
               </tr>
               <tr class="hover:bg-gray-50">
-                <td class="py-3 font-medium">Water Absorption</td>
+                <td class="py-3 font-medium">{{ 'PRODUCTS.XPS.WATER' | translate }}</td>
                 <td class="py-3">< 0.7% by volume</td>
               </tr>
             </tbody>
@@ -59,28 +52,28 @@
         <img class="rounded-lg shadow-xl" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/8a335fdd50-1cf9ee70bc7c6962d98f.png" alt="professional product photo of white EPS foam insulation panels displayed professionally, clean industrial background" />
       </div>
       <div class="order-1 lg:order-2 space-y-6">
-        <h2 class="text-3xl font-bold text-blue-900">EPS Insulation</h2>
+        <h2 class="text-3xl font-bold text-blue-900">{{ 'PRODUCTS.EPS.TITLE' | translate }}</h2>
         <p class="text-gray-600 leading-relaxed">
-          Expanded Polystyrene (EPS) foam provides cost-effective thermal insulation solutions. Perfect for both residential and commercial construction projects.
+          {{ 'PRODUCTS.EPS.DESCRIPTION' | translate }}
         </p>
         <div class="bg-white rounded-lg shadow-lg p-6">
-          <h3 class="text-xl font-semibold text-blue-900 mb-4">Technical Specifications</h3>
+          <h3 class="text-xl font-semibold text-blue-900 mb-4">{{ 'PRODUCTS.EPS.SPECS' | translate }}</h3>
           <table class="w-full">
             <tbody class="divide-y divide-gray-200">
               <tr class="hover:bg-gray-50">
-                <td class="py-3 font-medium">Density</td>
+                <td class="py-3 font-medium">{{ 'PRODUCTS.EPS.DENSITY' | translate }}</td>
                 <td class="py-3">15-20 kg/m³</td>
               </tr>
               <tr class="hover:bg-gray-50">
-                <td class="py-3 font-medium">Thermal Conductivity</td>
+                <td class="py-3 font-medium">{{ 'PRODUCTS.EPS.THERMAL' | translate }}</td>
                 <td class="py-3">0.035-0.040 W/mK</td>
               </tr>
               <tr class="hover:bg-gray-50">
-                <td class="py-3 font-medium">Compressive Strength</td>
+                <td class="py-3 font-medium">{{ 'PRODUCTS.EPS.COMPRESSIVE' | translate }}</td>
                 <td class="py-3">100-200 kPa</td>
               </tr>
               <tr class="hover:bg-gray-50">
-                <td class="py-3 font-medium">Water Absorption</td>
+                <td class="py-3 font-medium">{{ 'PRODUCTS.EPS.WATER' | translate }}</td>
                 <td class="py-3">< 3% by volume</td>
               </tr>
             </tbody>
@@ -94,11 +87,11 @@
 <!-- Contact CTA Section -->
 <section id="contact-cta" class="py-16 md:py-20 px-6 md:px-12 bg-blue-600 text-white">
   <div class="container mx-auto max-w-7xl px-4 sm:px-6 text-center">
-    <h2 class="text-3xl font-bold mb-6">Need Help Choosing the Right Product?</h2>
-    <p class="text-blue-100 max-w-2xl mx-auto mb-8">Our experts are here to help you select the perfect insulation solution for your project.</p>
+    <h2 class="text-3xl font-bold mb-6">{{ 'PRODUCTS.CTA.TITLE' | translate }}</h2>
+    <p class="text-blue-100 max-w-2xl mx-auto mb-8">{{ 'PRODUCTS.CTA.DESCRIPTION' | translate }}</p>
     <div class="flex flex-col sm:flex-row justify-center gap-4 sm:space-x-4">
-      <a routerLink="/contact" class="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition duration-300 cursor-pointer">Contact Us</a>
-      <a class="border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition duration-300 cursor-pointer">Download Catalog</a>
+      <a routerLink="/contact" class="bg-white text-blue-900 px-5 py-3 rounded-lg font-semibold hover:bg-blue-50 transition duration-300 cursor-pointer">{{ 'PRODUCTS.CTA.CONTACT' | translate }}</a>
+      <a class="border-2 border-white px-5 py-3 rounded-lg font-semibold hover:bg-blue-800 transition duration-300 cursor-pointer">{{ 'PRODUCTS.CTA.DOWNLOAD' | translate }}</a>
     </div>
   </div>
 </section>

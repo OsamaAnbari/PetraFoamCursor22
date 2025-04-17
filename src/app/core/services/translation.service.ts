@@ -1,36 +1,29 @@
 import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class TranslationService {
   private currentLangSubject = new BehaviorSubject<string>('en');
-  public currentLang$ = this.currentLangSubject.asObservable();
+  public currentLang$: Observable<string> = this.currentLangSubject.asObservable();
 
   constructor(private translate: TranslateService) {
-    // Get the language from localStorage if available, otherwise default to 'en'
+    this.initLanguage();
+  }
+
+  private initLanguage(): void {
     const savedLang = localStorage.getItem('language') || 'en';
-    this.initLanguage(savedLang);
-  }
-
-  initLanguage(lang: string): void {
-    // Set the default language
     this.translate.setDefaultLang('en');
-    
-    // Use the selected language
-    this.changeLang(lang);
+    this.changeLang(savedLang);
   }
 
-  changeLang(lang: string): void {
-    // Save to localStorage
+  public changeLang(lang: string): void {
+    this.translate.use(lang);
     localStorage.setItem('language', lang);
     
-    // Use the language
-    this.translate.use(lang);
-    
-    // Update document direction for RTL support
+    // Handle RTL for Arabic
     if (lang === 'ar') {
       document.documentElement.dir = 'rtl';
       document.documentElement.lang = 'ar';
@@ -41,15 +34,14 @@ export class TranslationService {
       document.body.classList.remove('rtl');
     }
     
-    // Update the subject
     this.currentLangSubject.next(lang);
   }
 
-  getCurrentLang(): string {
+  public getCurrentLang(): string {
     return this.currentLangSubject.value;
   }
 
-  isRtl(): boolean {
+  public isRtl(): boolean {
     return this.currentLangSubject.value === 'ar';
   }
 }

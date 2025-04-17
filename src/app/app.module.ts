@@ -1,15 +1,17 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PagesModule } from './pages/pages.module';
+import { SharedModule } from './core/shared.module';
 import { CoreModule } from './core/core.module';
+import { PagesModule } from './pages/pages.module';
 
-// AoT requires an exported function for factories
+// Factory function for TranslateHttpLoader
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
@@ -21,8 +23,10 @@ export function HttpLoaderFactory(http: HttpClient) {
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PagesModule,
+    SharedModule,
     CoreModule,
+    PagesModule,
+    RouterModule,
     HttpClientModule,
     TranslateModule.forRoot({
       defaultLanguage: 'en',

@@ -100,5 +100,36 @@
       "DESCRIPTION": "Contact our team of experts today to discuss your insulation needs and get a personalized quote.",
       "CONTACT_SALES": "Contact Sales Team"
     }
+  },
+  "PRODUCTS": {
+    "HERO": {
+      "TITLE": "Our Products",
+      "HOME": "Home",
+      "PRODUCTS": "Products"
+    },
+    "XPS": {
+      "TITLE": "XPS Insulation",
+      "DESCRIPTION": "Extruded Polystyrene (XPS) foam boards provide excellent thermal insulation and moisture resistance. Ideal for roofing, walls, and foundation applications.",
+      "SPECS": "Technical Specifications",
+      "DENSITY": "Density",
+      "THERMAL": "Thermal Conductivity",
+      "COMPRESSIVE": "Compressive Strength",
+      "WATER": "Water Absorption"
+    },
+    "EPS": {
+      "TITLE": "EPS Insulation",
+      "DESCRIPTION": "Expanded Polystyrene (EPS) foam provides cost-effective thermal insulation solutions. Perfect for both residential and commercial construction projects.",
+      "SPECS": "Technical Specifications",
+      "DENSITY": "Density",
+      "THERMAL": "Thermal Conductivity",
+      "COMPRESSIVE": "Compressive Strength",
+      "WATER": "Water Absorption"
+    },
+    "CTA": {
+      "TITLE": "Need Help Choosing the Right Product?",
+      "DESCRIPTION": "Our experts are here to help you select the perfect insulation solution for your project.",
+      "CONTACT": "Contact Us",
+      "DOWNLOAD": "Download Catalog"
+    }
   }
 } 
