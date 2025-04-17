@@ -131,5 +131,81 @@
       "CONTACT": "Contact Us",
       "DOWNLOAD": "Download Catalog"
     }
+  },
+  "ABOUT": {
+    "HERO": {
+      "TITLE": "About Petra Foam",
+      "SUBTITLE": "Leading the way in industrial insulation solutions since 2015"
+    },
+    "INTRO": {
+      "TITLE": "Who We Are",
+      "PARAGRAPH1": "Petra Foam is Jordan's premier manufacturer of industrial insulation solutions. With over a decade of experience, we've established ourselves as a trusted partner in providing high-quality insulation materials for both residential and commercial applications.",
+      "PARAGRAPH2": "Our commitment to innovation and sustainability drives us to deliver products that meet the highest international standards while supporting Jordan's growing construction and industrial sectors."
+    },
+    "JOURNEY": {
+      "TITLE": "Our Journey",
+      "2015": {
+        "YEAR": "2015",
+        "EVENT": "Founded in Amman, Jordan"
+      },
+      "2018": {
+        "YEAR": "2018",
+        "EVENT": "Expanded production capacity"
+      },
+      "2020": {
+        "YEAR": "2020",
+        "EVENT": "ISO Certification achieved"
+      },
+      "2025": {
+        "YEAR": "2025",
+        "EVENT": "Regional expansion & new product lines"
+      }
+    },
+    "VALUES": {
+      "TITLE": "Our Values",
+      "QUALITY": {
+        "TITLE": "Quality",
+        "DESCRIPTION": "Commitment to delivering premium insulation solutions that meet international standards"
+      },
+      "INNOVATION": {
+        "TITLE": "Innovation",
+        "DESCRIPTION": "Continuously improving our products and processes through research and development"
+      },
+      "SUSTAINABILITY": {
+        "TITLE": "Sustainability",
+        "DESCRIPTION": "Committed to environmental responsibility in our production processes"
+      }
+    }
+  },
+  "CONTACT": {
+    "HERO": {
+      "TITLE": "Contact Us",
+      "SUBTITLE": "Get in touch with our team for any inquiries about our heat insulation solutions."
+    },
+    "INFO": {
+      "PHONE": {
+        "TITLE": "Phone",
+        "LINE1": "+962 6 123 4567",
+        "LINE2": "+962 7 9876 5432"
+      },
+      "EMAIL": {
+        "TITLE": "Email",
+        "LINE1": "info@petrafoam.com",
+        "LINE2": "sales@petrafoam.com"
+      },
+      "ADDRESS": {
+        "TITLE": "Address",
+        "LINE1": "King Hussein Business Park",
+        "LINE2": "Amman, Jordan"
+      }
+    },
+    "FORM": {
+      "TITLE": "Send us a Message",
+      "NAME": "Full Name",
+      "EMAIL": "Email Address",
+      "PHONE": "Phone Number",
+      "MESSAGE": "Message",
+      "SUBMIT": "Send Message"
+    }
   }
 } 
